@@ -1,0 +1,77 @@
+body {
+    font-size: 100%;
+    line-height: 1.5em;
+    width: 100%;
+    margin: 0px;
+    background: #ddd;
+}
+
+#sitewide{
+    margin: 0px auto;
+}
+
+#content {
+    padding: 0;
+    max-width: 42em; 
+    background: #ff0;
+    margin: 0px auto;
+}
+
+.tagbox {
+    float: left; 
+    width: 9em; /* when sitewide width=42em */
+    height: 5em; 
+    line-height: 4.5em;
+    border: 5px solid #666666;
+    margin: .8em;
+    font-size: 1.3em;
+    position: relative;
+    text-align: center;
+    background: #fff;
+}
+
+.tagtext {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;  
+}
+
+
+@media all and (min-width: 320px) {
+    .tagbox {
+        width: 12em;
+        margin: .4em;
+    }
+    #content{
+        max-width: 20em; 
+    }
+}
+
+@media all and (min-width: 480px) {
+    .tagbox {
+        width: 10.5em;
+        font-size: 1.1em;
+        margin: .4em;
+    }
+    #content{
+        max-width: 28em; 
+    }
+}
+
+@media all and (min-width: 600px) {
+    .tagbox {
+        width: 12em;
+    }
+    #content{
+        max-width: 30em; 
+    }
+}
+
+@media all and (min-width: 800px) {
+    .tagbox {
+        width: 9em;
+    }
+    #content{
+        max-width: 42em; 
+    }
+}

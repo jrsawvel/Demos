@@ -1,0 +1,187 @@
+body {
+
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+header {
+    background: #120a8f;   /* ultramarine blue */
+    width: 100%;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 100; 
+}
+
+
+section {
+    margin: 10px auto 0px;
+    position: relative;
+    padding-top: 20px; 
+}
+
+#sitewide {
+    margin: 0px auto;
+    padding: 0;
+    max-width: 42em;
+}
+
+#navmenu {
+    height: 40px;
+}
+
+#navmenu ul {
+    list-style-type: none;
+    background: #120a8f;   /* ultramarine blue */
+    padding: .6em 0 .5em 0; 
+    margin: 0 0 0 0;
+/*    font-size: .9em; */
+    font-family: Arial, Helvetica, sans-serif;  
+}
+#navmenu ul li {
+    display: inline-block; 
+}
+#navmenu ul li a {
+    text-decoration: none;
+    color: #f8f8f8;
+    text-align: left;
+    padding: 0 .5em;
+}
+#navmenu ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+#navmenu #navmenutext {
+    display: none;
+}
+
+#footermenu {
+    clear: right;
+    font-size: 1em;
+    text-align: center;
+}
+#footermenu ul {
+    list-style-type: none;
+    padding: 0 0 0 0; 
+    margin: 0 0 0 0;
+}
+#footermenu ul li {
+    display: inline-block; 
+}
+#footermenu ul li a {
+    text-align: left;
+    padding: 0 2em;
+}
+
+.smallscreens {
+    display: none;
+}
+
+@media all and (max-width: 480px) {
+.smallscreens {
+    display: inline;
+}
+.largescreens {
+    display: none;
+}
+
+ #navmenu {
+    position: relative;
+    min-height: 40px;
+    width: 70px;
+    float: right;
+}
+#navmenu ul {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #120a8f;  
+}
+#navmenu ul li {
+    display: none;
+    margin: 0;
+}
+#navmenu .current {
+    display: block;
+}
+#navmenu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #f8f8f8;
+    text-align: right;
+    padding: 0 .5em;
+}
+#navmenu ul:hover {
+    background: #000000;
+}
+#navmenu ul:hover li {
+    display: block;
+    margin: 0 0 25px;
+}
+#navmenu ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+#navmenu #navmenutext {
+    display: inline;
+}
+#navmenu .current a:active {
+    display: none; 
+}
+
+     #footermenu ul li a {
+        padding: 0 .3em;
+    }
+}
+
+/* #container { width: 300px; border: 1px solid black; padding: 0.5em; } */
+
+#navmenu2 {
+/*    padding: .6em .5em .7em .5em;  */
+    clear: right;
+    clear: left;
+    height: 40px;
+    padding-left: 20px;
+}
+#navmenu2 a {
+    text-decoration: none;
+    color: #f8f8f8;
+}
+#navmenu2 a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+
+#container {
+/*    padding-top: 20px; */
+}
+#container a {
+    text-decoration: none;
+    color: #f8f8f8;
+    text-align: left;
+    padding: .5em .5em;
+}
+#container a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.bluebutton {
+    color: #f8f8f8;
+    background: #120a8f; 
+    border: 0px solid #120a8f;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*
+ margin/padding: top right bottom left;
+*/
+

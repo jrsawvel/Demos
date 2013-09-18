@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8>
+  <title>javascript animate blocks</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="animate-blocks.css" />
+  <script src="minified.js"></script>
+  <script src="animate-blocks.js"></script>
+</head>
+<body>
+
+<header>
+<nav>
+<div id="navmenu">
+<ul>
+<li><button class="bluebutton" id="moveButton">&gt;&gt;</button></li>
+<li><button class="bluebutton" id="resetButton">&lt;&lt;</button></li> 
+</ul>
+</div>
+</nav>
+</header>
+
+<div id="container">
+  <div id="col_left" class="col">
+   <form  method="post" action="/cgi-bin/nothing.pl">
+    <span class="tools">
+    </span>
+    <textarea name="article" id="tx_input" cols="80" rows="20" class="panel" autofocus></textarea>
+   </form>
+  </div> <!-- end col_left -->
+  <div id="col_right" class="col">
+    <div id="text_preview" class="panel">
+    </div> <!-- end text_preview -->
+  </div> <!-- end col_right -->
+</div> <!-- end container -->
+
+</body>
+</html>

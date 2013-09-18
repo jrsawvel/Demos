@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN" "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html>
+<head>
+<meta charset=utf-8>
+<title>select dropdown menu</title>
+<link rel="stylesheet" type="text/css" media="screen" href="select-dropdown.css" />
+</head>
+<body>
+
+<header>
+
+<nav>
+<div id="headerhomelink">
+<a title="Home Page" href="http://jothut.com"><strong>Jot Hut</strong></a>
+</div>
+
+<div id="navmenu" class="largescreens">
+<ul>
+<!-- <li class="current" id="navmenutext"><a href="#">Menu</a></li> -->
+<li><a href="#">JR</a></li>
+<li><a href="#">tags</a></li>
+<li><a href="#">following</a></li>
+<li><a href="#">replies</a></li>
+<li><a href="#">logout</a></li>
+<li><a href="#">post</a></li>
+</ul>
+</div>
+
+<select id="styled-select" class="smallscreens" onChange="document.location = this.value" value="GO">> 
+  <option value="#">menu</option>
+<!--  <option value="http://jothut.com/cgi-bin/junco.pl/blogpost/17/JotHut-About">About</option> -->
+  <option value="http://jothut.com/cgi-bin/junco.pl/searchform">search</option>
+  <option value="http://jothut.com/cgi-bin/junco.pl/user/JR">YOU</option>
+  <option value="http://jothut.com/cgi-bin/junco.pl/tags">tags</option>
+  <option value="http://jothut.com/cgi-bin/junco.pl/followingstream">following</option>
+  <option value="http://jothut.com/cgi-bin/junco.pl/repliesstream">replies</option>
+  <option value="http://jothut.com/cgi-bin/junco.pl/logout">logout</option>
+  <option value="http://jothut.com/cgi-bin/junco.pl/blogpostform">post</option>
+</select>
+
+</nav>
+
+</header>
+
+<section>
+
+<article>
+<p>
+<strong>Hello World</strong>
+</p>
+</article>
+
+<article>
+<p>
+<strong>Nice Weather</strong>
+</p>
+</article>
+
+<article>
+<select class="smallscreens"> 
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+</article>
+
+</section>
+
+
+<footer>
+<div id="footermenu">
+<ul>
+<li><a href="#">about</a></li>
+<li><a href="#">contact</a></li>
+<li><a href="#">archives</a></li>
+</ul>
+</div>
+</footer>
+
+</body>
+</html>

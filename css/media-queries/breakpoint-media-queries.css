@@ -1,0 +1,183 @@
+/* Simple Responsive Design Test */
+
+body {
+    font-size: 100%;
+}
+
+/* testing for resizing desktop/laptop browser */
+#testcontent {
+    font-size: .7em;
+    background: white;
+}
+
+@media all and (min-width: 200px) {
+    #testcontent {
+        font-size: .8em;
+        background: red;
+    }
+}
+
+@media all and (max-width: 320px) {
+    #testcontent {
+        font-size: .9em;
+        background: #00cdcd;
+    }
+}
+
+@media all and (min-width: 400px) {
+    #testcontent {
+        font-size: .9em;
+        background: orange;
+    }
+}
+
+@media all and (min-width: 600px) {
+    #testcontent {
+        font-size: 1em;
+        background: yellow;
+    }
+}
+
+@media all and (min-width: 768px) {
+    #testcontent {
+        font-size: 1em;
+        background: grey;
+    }
+}
+
+@media all and (min-width: 800px) {
+    #testcontent {
+        font-size: 1.05em;
+        background: green;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    #testcontent {
+        font-size: 1.1em;
+        background: blue;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    #testcontent {
+        font-size: 1.15em;
+        background: black;
+        color: red;
+    }
+}
+@media screen and (min-width: 1024px) {
+    #testcontent {
+        font-size: 1.15em;
+        background: black;
+        color: #fff;
+    }
+}
+@media screen and (min-width: 1025px) {
+    #testcontent {
+        font-size: 1.15em;
+        background: black;
+        color: blue;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    #testcontent {
+        font-size: 1.2em;
+        background: purple;
+        color: #fff;
+    }
+}
+
+/* 
+Filament Group Media Query Breakpoints 
+min-width: 20em  (320px)
+min-width: 35em (560px)
+min-width: 50em (800px)
+min-width: 55em (880px)
+*/
+
+@media all and (min-width: 20em) {
+    #testcontent2 {
+        font-size: .8em;
+        background: red;
+    }
+}
+
+@media all and (min-width: 35em) {
+    #testcontent2 {
+        font-size: 1em;
+        background: orange;
+    }
+}
+
+@media all and (min-width: 50em) {
+    #testcontent2 {
+        font-size: 1.5em;
+        background: yellow;
+    }
+}
+
+@media all and (min-width: 55em) {
+    #testcontent2 {
+        font-size: 2em;
+        background: green;
+    }
+}
+
+/*
+Upstatement
+http://upstatement.com/blog/2012/01/how-to-approach-a-responsive-design/
+1200px ("which we also set as the max width")
+960px
+768px
+600px
+480px
+320px
+
+In the article about the Boston Globe redesign, the design wad made desktop down to mobile.
+For this, I'll start with mobile and move up.
+*/
+
+@media all and (min-width: 320px) {
+    #testcontent3 {
+        font-size: .8em;
+        background: red;
+    }
+}
+
+@media all and (min-width: 480px) {
+    #testcontent3 {
+        font-size: .9em;
+        background: orange;
+    }
+}
+
+@media all and (min-width: 600px) {
+    #testcontent3 {
+        font-size: 1em;
+        background: yellow;
+    }
+}
+
+@media all and (min-width: 768px) {
+    #testcontent3 {
+        font-size: 1.2em;
+        background: green;
+    }
+}
+
+@media all and (min-width: 960px) {
+    #testcontent3 {
+        font-size: 1.5em;
+        background: blue;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    #testcontent3 {
+        font-size: 2em;
+        background: gray;
+    }
+}
+

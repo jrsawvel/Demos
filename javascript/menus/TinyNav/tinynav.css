@@ -1,0 +1,167 @@
+body {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+header {
+    background: #120a8f;   /* ultramarine blue */
+    width: 100%;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 100; 
+}
+
+section {
+    margin: 10px auto 0px;
+    position: relative;
+    padding-top: 20px; 
+}
+
+#headerhomelink {
+    float: left;
+    background: #120a8f;   /* ultramarine blue */
+    padding: .6em .5em .5em .5em; 
+    margin: 0 0 0 0;
+    font-size: 1em;
+}
+#headerhomelink a {
+    color: #f8f8f8;
+    text-decoration: none;
+}
+#headerhomelink a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#sitewide {
+    margin: 0px auto;
+    padding: 0;
+    max-width: 42em;
+}
+
+#navmenu {
+    height: 40px;
+}
+
+#navmenu ul {
+    list-style-type: none;
+    background: #120a8f;   /* ultramarine blue */
+    padding: .6em 0 .5em 0; 
+    margin: 0 0 0 0;
+    font-size: 1em;
+}
+#navmenu ul li {
+    display: inline-block; 
+}
+#navmenu ul li a {
+    text-decoration: none;
+    color: #f8f8f8;
+    text-align: left;
+    padding: 0 .5em;
+}
+#navmenu ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+#navmenu #navmenutext {
+    display: none;
+}
+
+#footermenu {
+    clear: right;
+    font-size: 1em;
+    text-align: center;
+}
+#footermenu ul {
+    list-style-type: none;
+    padding: 0 0 0 0; 
+    margin: 0 0 0 0;
+}
+#footermenu ul li {
+    display: inline-block; 
+}
+#footermenu ul li a {
+    text-align: left;
+    padding: 0 2em;
+}
+
+.smallscreens {
+    display: none;
+}
+
+.styled-select select {
+   background: #120a8f;   /* ultramarine blue */
+   color: #fff;
+   width: 100px;
+   padding: 5px;
+   font-size: 1em;
+   border: 0;
+   border-radius: 0;
+   height: 40px;
+   float: right;
+}
+
+@media all and (max-width: 600px) {
+/*
+#navmenu {
+    position: relative;
+    min-height: 40px;
+    width: 70px;
+    float: right;
+}
+#navmenu ul {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #120a8f;  
+}
+#navmenu ul li {
+    display: none;
+    margin: 0;
+}
+#navmenu .current {
+    display: block;
+}
+#navmenu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #f8f8f8;
+    text-align: right;
+    padding: 0 .5em;
+}
+#navmenu ul:hover {
+    background: #000000;
+}
+#navmenu ul:hover li {
+    display: block;
+    margin: 0 0 5px;
+}
+#navmenu ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+#navmenu #navmenutext {
+    display: inline;
+}
+#navmenu .current a:active {
+    display: none; 
+}
+*/
+#footermenu ul li a {
+    padding: 0 .3em;
+}
+.smallscreens {
+    display: inline;
+}
+.largescreens {
+    display: none;
+}
+}
+
+
+/*
+ margin/padding: top right bottom left;
+*/
+
